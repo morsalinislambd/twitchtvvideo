@@ -1,0 +1,17 @@
+/*this code collected from twitch tv developer forum
+  this code only for video not chat system
+*/
+
+<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="SamplePlayerDivID"></div>
+<script type="text/javascript">
+  var options = {
+    width: 854,
+    height: 480,
+    channel: "thesoundofislam", /*Enter Your Channel username*/
+    
+    // only needed if your site is also embedded on embed.example.com and othersite.example.com
+    parent: ["embed.example.com", "othersite.example.com"]
+  };
+  var player = new Twitch.Player("SamplePlayerDivID", options);
+  player.set
